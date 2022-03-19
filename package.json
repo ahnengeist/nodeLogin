@@ -1,0 +1,23 @@
+{
+  "name": "nodelogin",
+  "version": "1.0.0",
+  "description": "mein erster Versuch mit Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahnengeist/nodeLogin.git"
+  },
+  "keywords": [
+    "nodejs",
+    "login"
+  ],
+  "author": "dennis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahnengeist/nodeLogin/issues"
+  },
+  "homepage": "https://github.com/ahnengeist/nodeLogin#readme"
+}
