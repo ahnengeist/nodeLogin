@@ -2,9 +2,10 @@
   "name": "nodelogin",
   "version": "1.0.0",
   "description": "mein erster Versuch mit Node.JS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/ahnengeist/nodeLogin/issues"
   },
-  "homepage": "https://github.com/ahnengeist/nodeLogin#readme"
+  "homepage": "https://github.com/ahnengeist/nodeLogin#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
